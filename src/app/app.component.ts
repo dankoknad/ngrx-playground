@@ -3,6 +3,10 @@ import { Store, select } from '@ngrx/store';
 import { Observable } from 'rxjs';
 import { INCREMENT, DECREMENT, RESET } from '../counter';
 
+interface AppState {
+  count: number;
+}
+
 @Component({
   selector: 'app-root',
   // templateUrl: './app.component.html',
