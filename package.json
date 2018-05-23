@@ -1,5 +1,5 @@
 {
-  "name": "rxjs-playground",
+  "name": "ngrx-playground",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
