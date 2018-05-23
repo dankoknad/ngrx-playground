@@ -9,15 +9,7 @@ interface AppState {
 
 @Component({
   selector: 'app-root',
-  // templateUrl: './app.component.html',
-  template: `
-    <div class="counter">
-      <div class="count">Current Count: {{ count$ | async }}</div>
-      <button (click)="increment()">Increment</button>
-      <button (click)="decrement()">Decrement</button>
-      <button class="btn-reset" (click)="reset()">Reset Counter</button>
-    </div>
-  `,
+  templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
